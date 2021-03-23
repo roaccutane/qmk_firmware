@@ -33,9 +33,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #define STM32_BOOTLOADER_ADDRESS 0x1FFFD800
 /* STM32F303CC:256
- * STM32F303CB:128*/
+ * STM32F303CB:128
 #define FEE_MCU_FLASH_SIZE 256
-
+*/
 
 /* key matrix size */
 #define MATRIX_ROWS 5

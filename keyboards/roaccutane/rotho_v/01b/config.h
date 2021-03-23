@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x0001
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Roaccutane1
+#define MANUFACTURER    Roaccutane
 #define PRODUCT         rortho_v_rev1
 #define DESCRIPTION     rotho_v
 
@@ -80,11 +80,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_KEYPRESSES
  */
 #define OLED_DISPLAY_128X64
-#define I2C1_SCL_BANK GPIOB
-#define I2C1_SCA_BANK GPIOB
+
 #define I2C1_SCL 8
 #define I2C1_SDA 9
 
+/* define default
+#define I2C1_SCL_BANK GPIOB
+#define I2C1_SCA_BANK GPIOB
+ */
 
 /* Custom EEPROM start addressing. This is to support
  * both 128kb and 256kb versions of F303.
